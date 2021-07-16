@@ -22,7 +22,7 @@
                  </div>
                  <div class="header__contacts">
                     <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
-                     <button class="button">Заказать звонок</button>
+                     <button data-modal="consultation" class="button">Заказать звонок</button>
                  </div>
              </header>
 
@@ -46,7 +46,7 @@
                      </div>
                  </div>
 
-                 <button class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
+                 <button data-modal="consultation" class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
                 <div class="promo__link">
                     или
                     <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
@@ -495,6 +495,38 @@
                 <img src="icons//instagram.png" alt="instagram">
                 <img src="icons/p.png" alt="p">
             </div>
+        </div>
+    </div>
+
+    <div class="overlay">
+        <div class="popup" id="consultation"> 
+            <div class="popup__close">&times;</div>
+            <div class="popup__subtitle">Просто заполните форму заявки</div>
+            <div class="popup__descr">и мы перезвоним вам в течении 10 минут</div>
+            <form class="feed-form feed-form_border" action="#">
+                <input name="name" required type="text" placeholder="Ваше имя">
+                <input name="phone" required type="number" placeholder="Ваш телефон">
+                <input name="email" required type="email" placeholder="Ваше E-mail">
+                <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
+            </form>
+        </div>
+
+        <div class="popup" id="order"> 
+            <div class="popup__close">&times;</div>
+            <div class="popup__subtitle">Ваш заказ:</div>
+            <div class="popup__descr">Пудьсометр Polar FT1</div>
+            <form class="feed-form feed-form_border" action="#">
+                <input name="name" required type="text" placeholder="Ваше имя">
+                <input name="phone" required type="number" placeholder="Ваш телефон">
+                <input name="email" required type="email" placeholder="Ваше E-mail">
+                <button class="button button_submit">КУпить</button>
+            </form>
+        </div>
+
+        <div class="popup" id="thanks"> 
+            <div class="popup__close">&times;</div>
+            <div class="popup__subtitle">Спасибо за вашу заявку!</div>
+            <div class="popup__descr">Наш менеджер свяжется с вами!</div>
         </div>
     </div>
 
