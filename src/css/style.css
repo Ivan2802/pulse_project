@@ -708,6 +708,17 @@
     font-size: 20px;
     text-align: center;
   }
+
+  .popup {
+    width: 200px;
+  }
+
+  .feed-form_border {
+    width: 180px;
+  }
+  .feed-form_border input {
+    height: 30px;
+  }
 }
 @media (max-width: 320px) {
   .promo__subheader {
@@ -762,6 +773,17 @@
 
   .catalog-item {
     margin-right: 0;
+  }
+
+  .popup {
+    width: 200px;
+  }
+
+  .feed-form_border {
+    width: 180px;
+  }
+  .feed-form_border input {
+    height: 30px;
   }
 }
 
