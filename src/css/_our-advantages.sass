@@ -7,7 +7,7 @@
     display: flex
     flex-wrap: wrap
     align-items: center
-    justify-content: center
+    justify-content: space-between
     text-align: center
   &__subtitle
     font-weight: bold
@@ -22,3 +22,11 @@
     width: 270px
     span
       color: #C70101
+  &_animated
+    animation: heartbit
+    animation-duration: 1s
+    animation-timing-function: ease
+    animation-iteration-count: infinite
+    &:hover
+      animation-play-state: paused
+      cursor: pointer

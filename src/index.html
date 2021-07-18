@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BEM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -28,12 +29,12 @@
 
              <div class="promo__wrapper">
 
-                <h1 class="promo__header">Подбор пульсометра</h1>
+                <h1 class="promo__header wow animate__animated animate__flipInX">Подбор пульсометра</h1>
                 <h2 class="promo__subheader">с учётом Вашего уровня подготовки</h2>
 
                  <div class="promo__icons">
                      <div class="promo__icon">
-                         <img src="icons/clock.png" alt="clock">
+                         <img class="promo__icon_animated wow animate__animated animate__shakeX" src="icons/clock.png" alt="clock">
                          Время подбора: 10 минут
                      </div>
                      <div class="promo__icon">
@@ -65,15 +66,15 @@
                     <div class="our-advantages__img">
                         <img src="icons/cup.png" alt="cup">
                     </div>
-                    <div class="our-advantages__subtitle">Делимся опытом</div>
+                    <div class="our-advantages__subtitle wow animate__animated animate__fadeInDown">Делимся опытом</div>
                     <div class="our-advantages__text">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                 </div>
 
                 <div class="our-advantages__advantage">
                     <div class="our-advantages__img">
-                        <img src="icons/heart.png" alt="heart">
+                        <img class="our-advantages_animated" src="icons/heart.png" alt="heart">
                     </div>
-                    <div class="our-advantages__subtitle">Заботимся о здоровье</div>
+                    <div class="our-advantages__subtitle wow animate__animated animate__fadeInDown">Заботимся о здоровье</div>
                     <div class="our-advantages__text">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
                 </div>
 
@@ -81,7 +82,7 @@
                     <div class="our-advantages__img">
                         <img src="icons/shoe.png" alt="shoe">
                     </div>
-                    <div class="our-advantages__subtitle">Учим бегать</div>
+                    <div class="our-advantages__subtitle wow animate__animated animate__fadeInDown">Учим бегать</div>
                     <div class="our-advantages__text">Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <span>I LOVE RUNNING</span>.</div>
                 </div>
 
@@ -452,7 +453,7 @@
             <div class="title">отзывы клиентов</div>
             <div class="feedback__wrapper">
 
-                <div class="feedback__item">
+                <div class="feedback__item wow animate__animated animate__fadeInUp">
                     <img src="img/photo_client_1.png" alt="photo_client_1" class="feedback__img">
                     <div class="feedback__text">
                         <div class="feedback__title">Ирина Иванченко</div>
@@ -462,7 +463,7 @@
                     </div>
                 </div>
 
-                <div class="feedback__item">
+                <div class="feedback__item wow animate__animated animate__fadeInUp">
                     <img src="img/photo_client_2.png" alt="photo_client_1" class="feedback__img">
                     <div class="feedback__text">
                         <div class="feedback__title">Иван Сёмочкин</div>
@@ -471,7 +472,7 @@
                     </div>
                 </div>
 
-                <div class="feedback__item">
+                <div class="feedback__item wow animate__animated animate__fadeInUp">
                     <img src="img/photo_client_3.png" alt="photo_client_1" class="feedback__img">
                     <div class="feedback__text">
                         <div class="feedback__title">Юлия Дашкина</div>
@@ -536,6 +537,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

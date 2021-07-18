@@ -136,7 +136,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
 }
 .our-advantages__subtitle {
@@ -154,6 +154,16 @@
 }
 .our-advantages__text span {
   color: #C70101;
+}
+.our-advantages_animated {
+  animation: heartbit;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+.our-advantages_animated:hover {
+  animation-play-state: paused;
+  cursor: pointer;
 }
 
 .title {
@@ -550,6 +560,10 @@
     margin-top: 50px;
     margin-bottom: 50px;
   }
+
+  .our-advantages__advantages {
+    justify-content: center;
+  }
 }
 @media (max-width: 930px) {
   .footer__info {
@@ -784,6 +798,17 @@
   }
   .feed-form_border input {
     height: 30px;
+  }
+}
+@keyframes heartbit {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
